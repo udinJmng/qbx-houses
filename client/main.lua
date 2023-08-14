@@ -61,7 +61,6 @@ local function showEntranceHeaderMenu()
                 title = Lang:t("menu.give_house_key"),
                 event = "qb-houses:client:giveHouseKey",
             }
-        elseif isOwned and not HasHouseKey then
             options[#options + 1] = {
                 title = Lang:t("menu.ring_door"),
                 event = "qb-houses:client:RequestRing",
